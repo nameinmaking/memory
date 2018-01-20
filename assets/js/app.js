@@ -13,9 +13,6 @@
 // to also remove its path from "config.paths.watched".
 import "phoenix_html";
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 // Import local files
 //
 // Local files can be imported directly using relative
@@ -23,12 +20,13 @@ import ReactDOM from 'react-dom';
 
 // import socket from "./socket"
 
-import ClickMe from "./click_me";
+import run_demo from "./demo";
 
 function init() {
   let root = document.getElementById('game');
-  ReactDOM.render(<ClickMe side={0}/>, root);
+  run_demo(root);
 }
 
+// Use jQuery to delay until page loaded.
 $(init);
 
