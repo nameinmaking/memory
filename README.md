@@ -31,6 +31,8 @@ As the new user:
  * Install NodeJS through NVM.
  * Check out this git repository to ~/src/memory
  * Run the deploy script.
+   * You may need to answer "Y" and press return.
+ *    
 
 ## Learn more
 
@@ -40,5 +42,6 @@ As the new user:
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
 
-Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+Ready to run in production? Please
+[check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
